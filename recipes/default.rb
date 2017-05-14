@@ -21,3 +21,9 @@ ssh_authorize_key user['id'] do
   user user['id']
   key  user['ssh_key']
 end
+
+# modify /etc/ssh/sshd_config
+openssh_server node['sshd']['config_file'] do
+  PermitRootLogin 'no'
+  PubkeyAuthentication 'yes'
+end
