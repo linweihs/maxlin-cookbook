@@ -27,3 +27,7 @@ openssh_server node['sshd']['config_file'] do
   PermitRootLogin 'no'
   PubkeyAuthentication 'yes'
 end
+
+service 'sshd' do
+  action :restart
+end
