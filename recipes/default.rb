@@ -8,18 +8,22 @@
 #
 
 # add user and add to sudo group
-user 'maxlin' do
-  comment 'Wei-Hsiang Lin'
-  home '/home/maxlin'
-  group 'sudo'
-end
-
-# Create SSH authorized keys files in user home directories.
-user = data_bag_item('ssh_keys', 'maxlin')
-
-ssh_authorize_key user['id'] do
-  user user['id']
-  key  user['ssh_key']
+#user 'maxlin' do
+#  comment 'Wei-Hsiang Lin'
+#  home '/home/maxlin'
+#  group 'sudo'
+#end
+#
+## Create SSH authorized keys files in user home directories.
+#user = data_bag_item('ssh_keys', 'maxlin')
+#
+#ssh_authorize_key user['id'] do
+#  user user['id']
+#  key  user['ssh_key']
+#end
+users_manage 'sysadmin' do
+    group_id 26
+    action [:create]
 end
 
 # modify /etc/ssh/sshd_config
