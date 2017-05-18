@@ -22,7 +22,7 @@
 #  key  user['ssh_key']
 #end
 users_manage 'sysadmin' do
-    group_id 26
+    group_id 126
     action [:create]
 end
 

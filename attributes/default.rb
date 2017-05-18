@@ -1,2 +1,2 @@
-node['authorization']['sudo']['passwordless'] = true
-node['authorization']['sudo']['groups'] = ['sysadmin', 'sudo']
+node.default['authorization']['sudo']['passwordless'] = true
+node.default['authorization']['sudo']['groups'] = ['sysadmin', 'sudo']
