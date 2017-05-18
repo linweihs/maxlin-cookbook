@@ -26,6 +26,8 @@ users_manage 'sysadmin' do
     action [:create]
 end
 
+include_recipe 'sudo'
+
 # modify /etc/ssh/sshd_config
 openssh_server node['sshd']['config_file'] do
   PermitRootLogin 'no'

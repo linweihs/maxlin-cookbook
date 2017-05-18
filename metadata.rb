@@ -10,4 +10,5 @@ version          '0.1.0'
 #depends          'ssh-keys' // use 'ssh_authorized_keys' instead
 #depends          'ssh_authorized_keys'
 depends          'users'
+depends          'sudo'
 depends          'sshd'
