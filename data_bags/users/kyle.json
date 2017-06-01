@@ -1,0 +1,9 @@
+{
+    "id": "kyle",
+    "ssh_keys": [
+        "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCvaBG0mOVq8piU/PQPTljDjaFt9VgRwKc5Y5jm979HqMmxk1BKSfvUGwk5Jm/F/1Ojwzvdom8ddNgGC6oz3BTkxD+y20ivz1vsHcH3PUGoZbj+LcHZTdA3ynuydtwvCPk+Vil7dKJDDkS3lQEmg6YGahU9TVgbPKWtxucRtR1SYNXsJb81OM1uAa/AUhnKz9nFkTv+HzAHcMXaZCBBYscmFoyr8f1PTgqDkVh6yLKlZBBTxrV9eCHWLBxCIn3KxBdY8lNA3dyKD0zJeCRxsjbmxSbzMQlg5vBr8FjRBpYvwe2SJHiYnvm6jOihqaYL5zUsgrRTHR0g4Z8nd7XTWCntvmfBMbVRliVVyCwf2Q+6MOmc8J2mrkYR1WiUS3vM0/oFioEb+7aIiAM39/9Fi/6+EP6N30eC6bwMFgQLtG0WqUaOxHtlENe6NEB+qXM2608NIhMS/8IyPgqKIG49dje8PQd1IGidi9hoj0fftCbATvHTJJCBKtAhzOgHdYEl9m4gFTouHReWsJalNdZbdzcIdCFbSv859sa4e5mvJ93DOzz2EXHsY249WCH1kIs/EikUeWznCAOH4hh2gZcs8Ht6ozMcHE/opdbjHKS/WuYYFET5DxYN9BmtC5kNHikO4ek3iAWGoPyiEO6N60TSK35y/OJFfN8dykNQX8CnSdkqKw== pi@Galaxy"
+    ],
+    "groups" : [ "sysadmin"],
+    "shell": "\/bin\/bash",
+    "comment": "Kyle Yang"
+}
